@@ -1,0 +1,20 @@
+.prototype-bar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 42px;border-bottom:1px dashed #ddd5eb;background:#f3f0f9}
+.prototype-label{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.prototype-indicator{width:8px;height:8px;border-radius:50%;background:#a18cc9;box-shadow:0 0 0 5px #e8e1f3}
+.prototype-label strong{display:block;font-size:12px;color:#67557d}
+.prototype-label small{display:block;font-size:10px;color:#9684a6;margin-top:2px}
+.prototype-controls{display:flex;align-items:center;gap:20px}
+.prototype-subject{display:flex;align-items:center;gap:10px;font-size:11px;color:#8b789d}
+.prototype-subject select{border:1px solid #dfd5eb;background:#fff;border-radius:7px;padding:7px 9px;color:#71578b;font-size:11px}
+.state-switch{display:flex;border:1px solid #dfd5eb;background:#eae4f2;border-radius:9px;padding:4px;gap:4px}
+.state-switch button{border:0;border-radius:6px;background:none;color:#9482a5;padding:8px 17px;font-size:12px;min-height:34px}
+.state-switch button[aria-pressed="true"]{background:#fff;box-shadow:0 1px 5px #4d326518;color:#6550b5;font-weight:600}
+.completion-notice{display:flex;align-items:flex-start;gap:16px;background:#edf7f1;border:1px solid #d8eadd;border-radius:14px;padding:23px;margin-bottom:20px}
+.completion-icon{display:grid;place-items:center;width:36px;height:36px;flex-shrink:0;background:#d9ede2;color:#488b6a;border-radius:50%}
+.completion-notice h2{font-size:16px;color:#36684f;margin-bottom:5px}
+.completion-notice p{font-size:12px;color:#688775;line-height:1.8;max-width:620px}
+.completion-notice small{display:block;font-size:10px;color:#88a293;margin-top:10px}
+.editor-title h1{max-width:700px}
+@media(max-width:1200px){.prototype-bar{padding:16px 24px}.prototype-controls{gap:12px}}
+@media(max-width:800px){.prototype-bar{padding:16px 20px;flex-wrap:wrap;gap:15px}.prototype-controls{width:100%;justify-content:space-between}.prototype-label small{font-size:9px}.state-switch button{padding:7px 12px;font-size:11px}.prototype-subject{font-size:10px;gap:6px}}
+@media(max-width:520px){.prototype-controls{flex-wrap:wrap;gap:12px}.state-switch{width:100%}.state-switch button{flex:1}.prototype-subject{width:100%;justify-content:space-between}.completion-notice{padding:18px 15px;gap:12px}.completion-notice p{font-size:11px}.completion-notice h2{font-size:14px}.editor-title{flex-wrap:wrap;gap:14px}}

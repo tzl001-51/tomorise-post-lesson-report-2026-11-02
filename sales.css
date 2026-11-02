@@ -1,0 +1,7 @@
+.question-group{padding-top:24px;margin-top:24px;border-top:1px solid #e8eff8}
+.section-heading+.question-group{padding-top:0;margin-top:0;border-top:0}
+.question-group-heading{margin-bottom:24px}
+.question-group-heading h3{font-size:16px;color:#243e60;font-weight:650}
+.question-group-heading p{font-size:12px;line-height:1.65;color:#647e9e;margin-top:6px}
+.report-card>small{display:block;font-size:11px;line-height:1.65;color:#647e9e;margin-top:12px}
+.report-card dl{margin-top:14px}

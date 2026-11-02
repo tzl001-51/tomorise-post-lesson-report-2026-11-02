@@ -1,0 +1,21 @@
+.eyebrow,.workspace-label{color:#81758f}
+.topbar{color:#84798f}.topbar #breadcrumb{color:#63556f}.timezone{color:#82758d}
+.stat-label{font-size:12px;color:#71677d}.stat-caption{font-size:11px;color:#8b7e98}
+.page-heading p,.editor-title p{font-size:13px;color:#81718d}
+.focus-banner p{font-size:12px;color:#827090}.focus-banner strong{font-size:14px}
+.tabs button{font-size:12px}.tabs button span{font-size:10px}
+.search input{font-size:11px}.filter-line{font-size:11px;color:#897a96}.select-wrap select{font-size:11px}
+.lesson-table th{font-size:9px;color:#8b7b98}.person strong{font-size:12px}.person small{font-size:10px;color:#9989a7}
+.date-cell strong{font-size:11px}.date-cell small{font-size:10px;color:#9c8aa9}
+.badge{font-size:10px}.sales-link{font-size:10px;color:#8c7b9b}.row-action .button{font-size:10px}
+.stat-caption,.table-bottom,.privacy-note,.site-footer{color:#92829f}
+.field legend{font-size:12px}.field-hint{font-size:11px;color:#92819f}.choice{font-size:11px;color:#7b678e}
+.field select,.field textarea{font-size:12px}.field textarea::placeholder{font-size:11px;color:#a18faf}
+.section-heading p{font-size:11px;color:#9986a7}.internal-banner{font-size:11px}.internal-banner strong{font-size:12px}
+.context-card p{font-size:11px;color:#92809f}.context-card dt{color:#9c89aa}.context-card dd{font-size:10px}
+.summary-row dt{font-size:11px;color:#9681a5}.summary-row dd{font-size:12px;color:#796387}
+.form-footer>span{font-size:10px;color:#9b85aa}.history-entry p{font-size:11px}
+.form-footer{background:#fff}
+@media(max-width:800px){.row-action .button{font-size:10px}.stat-label{font-size:11px}.focus-banner p{font-size:11px}.choice{font-size:11px}}
+@media(max-width:520px){.topbar{gap:8px;padding:0 14px}.topbar>div:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.topbar-right{flex-shrink:0}.slash{margin:0 7px}.page-heading h1{font-size:25px}.tabs{flex-wrap:wrap;gap:4px}.tabs button{font-size:10px;padding:6px 7px}.focus-banner .button{margin-left:0;width:100%}.filter-line{gap:10px;flex-wrap:wrap}.filter-line>div{width:100%;justify-content:space-between}.list-title{gap:10px;flex-wrap:wrap}.stat{padding:13px}.stat-label{font-size:10px}.stat-caption{font-size:9px}.stat-icon{width:23px;height:23px}.editor-title{align-items:flex-start}.editor-title>div{min-width:0}}
+.table-scroll{position:relative}

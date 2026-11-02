@@ -1,0 +1,99 @@
+:root{--brand-yellow:#ffeb3c;--brand-yellow-soft:#fffbe5;--brand-strong:#164a93;--brand-border:#cfe0fa}
+body{font-family:"Avenir Next",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.brand{padding-left:10px;min-height:36px}
+.brand-logo{display:block;width:168px;height:30px;object-fit:contain}
+.mobile-brand-logo{display:none}
+.topbar-leading{display:flex;align-items:center;gap:14px;min-width:0}
+.breadcrumbs{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sidebar{border-color:var(--line)}
+.workspace-label,.eyebrow{color:#657a96}
+.nav-item.active{background:var(--brand-tint);color:var(--brand-primary);box-shadow:inset 3px 0 0 var(--brand-primary)}
+.nav-item:hover{background:var(--brand-tint)}
+.sidebar-note{background:var(--brand-yellow-soft);border-color:#f1e5a5;position:relative}
+.little-spark{color:var(--brand-primary);display:inline-grid;place-items:center;background:var(--brand-yellow);width:32px;height:32px;border-radius:50%;font-size:22px}
+.sidebar-note h3{color:#273c58;font-weight:650}
+.sidebar-note p{color:#756c42}
+.demo-tag,.sidebar-bottom p,.teacher-profile small{color:#6e7e93}
+.avatar.teacher,.avatar.lavender{color:var(--brand-primary);background:var(--brand-tint)}
+.avatar.peach{color:#725c1c;background:#fff3c8}
+.avatar.mint{color:#236e68;background:#e5f3f0}
+.avatar.pink{color:#a04e65;background:#fbeaf0}
+.avatar.blue{color:#275faf;background:#e9f1ff}
+.text-button{color:var(--brand-primary)}
+.topbar,.timezone{color:#6b7b90}
+.topbar #breadcrumb{color:#344d6d}
+.slash{color:#b7c5d5}
+.demo-pill{background:#f8fbff;border-color:var(--brand-border);color:#46658e}
+.demo-pill i{background:var(--brand-primary)}
+h1{font-weight:700;color:#173252;letter-spacing:-1px}
+.heading-dot{color:var(--brand-primary)}
+.editor-title p{color:#667b96}
+.prototype-bar{background:#f1f5fa;border-color:#ced9e7}
+.prototype-label strong{color:#324e71}
+.prototype-label small,.prototype-subject{color:#687d97}
+.prototype-indicator{background:var(--brand-yellow);box-shadow:0 0 0 5px #e3eaf4}
+.prototype-subject select{border-color:#cedbeb;color:#34577e}
+.state-switch{background:#e5ecf5;border-color:#d5dfed}
+.state-switch button{color:#627997}
+.state-switch button[aria-pressed="true"]{background:#fff;color:var(--brand-primary);box-shadow:0 1px 4px #174a8c14}
+.internal-banner{background:#edf5ff;border-color:var(--brand-border);color:#537399}
+.internal-banner strong{color:#28568d}
+.internal-banner svg{color:var(--brand-primary)}
+.form-section,.summary-card,.context-card{border-color:var(--line);box-shadow:0 2px 5px #17325203}
+.section-heading{border-color:#eaf0f7}
+.section-heading h2{color:#243e60;font-weight:650}
+.section-heading p{color:#687f9b;font-size:12px}
+.step-number{background:var(--brand-yellow-soft);border-color:#f2e7a6;color:#736318;font-weight:650}
+.field legend{color:#304967;font-size:13px}
+.required{color:var(--brand-primary)}
+.optional{background:#f6f8fc;border-color:var(--line);color:#6b7e96}
+.field-hint{color:#677d98;font-size:11px}
+.choice{border-color:#d9e3ef;color:#4d6582;background:#fff;font-size:12px}
+.choice:hover{background:#f6faff;border-color:#9dbff4}
+.choice:has(input:checked){background:var(--brand-tint);border-color:#85b3fa;color:#124d9e}
+.choice input{accent-color:var(--brand-primary)}
+.field select,.field textarea{border-color:#d5e1ef;color:#304e72;font-size:13px}
+.field textarea::placeholder{color:#7c8fa7;font-size:12px}
+.field select:disabled{background:#f5f8fc;color:#95a5b9}
+.material-grid select{padding-left:10px;padding-right:6px}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline-color:#a2c7ff}
+.button{border-color:#d5e1ef;color:#3c5677;font-weight:600}
+.button:hover{background:#f0f6ff;border-color:#9dbff4}
+.button.primary{color:#fff;box-shadow:0 3px 8px #0063f21a}
+.button.outline{background:#f6faff;border-color:#c8ddfc;color:var(--brand-primary)}
+.form-footer{background:#fff;border-color:#d1e0f4;box-shadow:0 5px 24px #23446d12}
+.form-footer>span{color:#607a9a}
+.person small,.context-card dt{color:#697f99}
+.context-card dd,.context-card p{color:#4e6888}
+.context-card h3{color:#2e4a6e}
+.context-card .eyebrow{color:#69809e}
+.auto-link{border-color:var(--line);color:#7188a3}
+.card-icon{background:var(--brand-tint);color:var(--brand-primary)}
+.report-card{background:#fcfdff}
+.mock-context,.site-footer{color:#6f829b}
+.notice{background:#f2f7ff;border-color:#d7e5fa;color:#526f94}
+.summary-row{border-color:#e8eff8}
+.summary-row dt{color:#657d9c}
+.summary-row dd{color:#2f4d71;font-size:13px}
+.history h3,.history-entry strong{color:#41648e}
+.history-entry small,.history-entry p{color:#6c819a}
+.history-dot{background:var(--brand-primary)}
+.completion-notice{background:#eff8f3;border-color:#d1e8db}
+.completion-icon{background:#d8eee1;color:#26734e}
+.completion-notice h2{color:#286446}
+.completion-notice p,.completion-notice small{color:#4f7761}
+.badge.pending{background:var(--brand-yellow-soft);color:#7c6418}
+.badge.draft{background:var(--brand-tint);color:#255da8}
+.badge.submitted{background:#e9f5ee;color:#33754f}
+.badge.neutral{background:#eef2f7;color:#647b96}
+dialog{border-color:#d8e4f4;box-shadow:0 24px 90px #183b6333}
+dialog::backdrop{background:#17345455}
+.icon-button{background:#f0f5fc;color:#58789f}
+.sales-info{background:#f4f7fc}
+.sales-info small{color:#6d829e}
+.modal-intro{color:#657c98}
+#toast{background:#203d64;box-shadow:0 7px 30px #17345426}
+#toast.error-toast{background:#984d54}
+@media(min-width:1201px){.material-grid{grid-template-columns:174px minmax(0,1fr)}}
+@media(max-width:800px){.sidebar .brand{display:none}.mobile-brand-logo{display:block;width:112px;height:20px;flex-shrink:0}.topbar-leading .breadcrumbs{max-width:260px}.sidebar nav{margin-top:12px}.choice{font-size:12px}.field legend{font-size:12px}}
+@media(max-width:520px){:root{--sidebar:0px}.sidebar{display:none}.workspace{margin-left:0}.topbar-leading .breadcrumbs{display:none}.topbar{padding:0 20px}.prototype-bar{padding:16px 20px}#toast{left:50%}.editor-title h1{font-size:25px}.section-heading p{font-size:11px}.field select,.field textarea{font-size:13px}.completion-notice p{font-size:12px}}
